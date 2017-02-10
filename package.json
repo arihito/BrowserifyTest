@@ -1,0 +1,15 @@
+{
+  "name": "browserifytest",
+  "version": "1.0.0",
+  "description": "20170210",
+  "scripts": {
+    "test": "browserify src/app.js -o builds/bundle.js"
+  },
+  "main": "index.js",
+  "repository": "https://github.com/arihito/BrowserifyTest.git",
+  "author": "arihito <arihito.m@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "loadash": "0.0.1"
+  }
+}
